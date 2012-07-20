@@ -1,0 +1,75 @@
+// reset.css.scss
+html, body { 
+  margin: 0; 
+  padding: 0; 
+}
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, q, s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form, label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td { 
+  margin: 0; 
+  padding: 0; 
+  border: 0; 
+  font-family: inherit; 
+}
+table { 
+  border-collapse: collapse; 
+  border-spacing: 0; 
+}
+ol, ul { 
+  list-style: none; 
+}
+q:before, 
+q:after, 
+blockquote:before, 
+blockquote:after { 
+  content: ""; 
+}
+optgroup, option {
+  font-family: inherit;
+  font-size: inherit;
+  font-style: inherit;
+  font-weight: inherit;
+}
+abbr, acronym {
+  font-variant: normal;
+}
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+}
+
+$link_color: #DF81B3;
+
+a {
+  color: $link_color;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+  background-color: $link_color;
+  text-decoration: none;
+}
+
+
+.clearfix {
+  zoom:1;
+}
+
+.clearfix:after {
+  clear: both;
+  content: ".";
+  display: block;
+  font-size: 0;
+  height: 0;
+  line-height: 0;
+  visibility: hidden;
+}
+
+.lfloat {
+	float: left;
+}
+
+.rfloat {
+	float: right;
+}
+
+
